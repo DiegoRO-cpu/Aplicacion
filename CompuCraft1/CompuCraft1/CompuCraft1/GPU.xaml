@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompuCraft1.GPU">
+
+    <ContentPage.Background>
+        <!-- Fondo degradado -->
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#00264D" Offset="0.0" />
+            <GradientStop Color="#005BB5" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <!-- Primer GPU -->
+                <Frame Margin="0,10,0,0" BorderColor="#db222a" CornerRadius="10" HasShadow="True" BackgroundColor="#db222a">
+                    <StackLayout>
+                        <Image Source="https://images.nvidia.com/aem-dam/Solutions/geforce/ada/news/rtx-40-series-graphics-cards-announcements/geforce-rtx-4090-product-photo-002.png"
+                           Aspect="AspectFill"
+                           HeightRequest="250" />
+                        <Label Text="Descripción: NVIDIA GeForce RTX 4090 con 24 GB de VRAM GDDR6X, ideal para juegos en 4K, renderizado 3D y aplicaciones de IA. Ofrece ray tracing y DLSS para rendimiento superior."
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Segundo GPU -->
+                <Frame Margin="0,10,0,0" BorderColor="#1f7a8c" CornerRadius="10" HasShadow="True" BackgroundColor="#1f7a8c">
+                    <StackLayout>
+                        <Image Source="https://dlcdnwebimgs.asus.com/gain/60c7541f-3a30-489b-b5a3-86e8dcdb3d06/"
+                           Aspect="AspectFill"
+                           HeightRequest="250" />
+                        <Label Text="Descripción: AMD Radeon RX 7900 XTX con 24 GB de VRAM GDDR6, ideal para juegos en 4K y creación de contenido. Ofrece ray tracing y eficiencia energética mejorada."
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Tercer GPU -->
+                <Frame Margin="0,10,0,0" BorderColor="#4a90e2" CornerRadius="10" HasShadow="True" BackgroundColor="#4a90e2">
+                    <StackLayout>
+                        <Image Source="https://asset.msi.com/resize/image/global/product/product_167273450141f27b1624d8e599cc1b00b918e4ff34.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+                           Aspect="AspectFill"
+                           HeightRequest="250" />
+                        <Label Text="Descripción: NVIDIA GeForce RTX 4070 Ti con 12 GB de VRAM GDDR6X, diseñada para juegos en 1440p y 4K. Compatible con ray tracing y DLSS 3.0."
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Cuarto GPU -->
+                <Frame Margin="0,10,0,0" BorderColor="#50e3c2" CornerRadius="10" HasShadow="True" BackgroundColor="#50e3c2">
+                    <StackLayout>
+                        <Image Source="https://www.gigabyte.com/FileUpload/Global/KeyFeature/1664/innergigabyteimages/kf-img.png"
+                           Aspect="AspectFill"
+                           HeightRequest="250" />
+                        <Label Text="Descripción: AMD Radeon RX 6800 XT con 16 GB de VRAM GDDR6, ideal para juegos en 1440p y 4K. Ofrece alto rendimiento en juegos AAA y soporte para ray tracing."
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Quinto GPU -->
+                <Frame Margin="0,10,0,0" BorderColor="#f5a623" CornerRadius="10" HasShadow="True" BackgroundColor="#f5a623">
+                    <StackLayout>
+                        <Image Source="https://static.gigabyte.com/StaticFile/Image/Global/16d4d59dc6f61aca9dcdfe800254c526/Product/26885/Png"
+                           Aspect="AspectFill"
+                           HeightRequest="250" />
+                        <Label Text="Descripción: NVIDIA GeForce RTX 3060 Ti con 8 GB de VRAM GDDR6, ideal para juegos en 1080p y 1440p. Compatible con ray tracing y DLSS, una opción asequible con rendimiento sólido."
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>

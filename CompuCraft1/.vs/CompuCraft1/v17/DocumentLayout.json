@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|c:\\users\\rodri\\source\\repos\\compucraft1\\compucraft1\\compucraft1\\sugerencias.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|solutionrelative:compucraft1\\compucraft1\\sugerencias.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|c:\\users\\rodri\\source\\repos\\compucraft1\\compucraft1\\compucraft1\\listas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|solutionrelative:compucraft1\\compucraft1\\listas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|c:\\users\\rodri\\source\\repos\\compucraft1\\compucraft1\\compucraft1\\componentes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|solutionrelative:compucraft1\\compucraft1\\componentes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|c:\\users\\rodri\\source\\repos\\compucraft1\\compucraft1\\compucraft1\\listas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|solutionrelative:compucraft1\\compucraft1\\listas.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|c:\\users\\rodri\\source\\repos\\compucraft1\\compucraft1\\compucraft1\\more.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|solutionrelative:compucraft1\\compucraft1\\more.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|c:\\users\\rodri\\source\\repos\\compucraft1\\compucraft1\\compucraft1\\componentes.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|solutionrelative:compucraft1\\compucraft1\\componentes.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|c:\\users\\rodri\\source\\repos\\compucraft1\\compucraft1\\compucraft1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|solutionrelative:compucraft1\\compucraft1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|c:\\users\\rodri\\source\\repos\\compucraft1\\compucraft1\\compucraft1\\more.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|solutionrelative:compucraft1\\compucraft1\\more.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|c:\\users\\rodri\\source\\repos\\compucraft1\\compucraft1\\compucraft1\\gpu.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|solutionrelative:compucraft1\\compucraft1\\gpu.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|c:\\users\\rodri\\source\\repos\\compucraft1\\compucraft1\\compucraft1\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{80D81918-9B36-4680-A9D0-D100538516B9}|CompuCraft1\\CompuCraft1\\CompuCraft1.csproj|solutionrelative:compucraft1\\compucraft1\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sugerencias.xaml",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\Sugerencias.xaml",
+              "RelativeDocumentMoniker": "CompuCraft1\\CompuCraft1\\Sugerencias.xaml",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\Sugerencias.xaml",
+              "RelativeToolTip": "CompuCraft1\\CompuCraft1\\Sugerencias.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-11T01:30:06.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Listas.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\Listas.xaml.cs",
+              "RelativeDocumentMoniker": "CompuCraft1\\CompuCraft1\\Listas.xaml.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\Listas.xaml.cs",
+              "RelativeToolTip": "CompuCraft1\\CompuCraft1\\Listas.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T01:05:27.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Listas.xaml",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\Listas.xaml",
+              "RelativeDocumentMoniker": "CompuCraft1\\CompuCraft1\\Listas.xaml",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\Listas.xaml",
+              "RelativeToolTip": "CompuCraft1\\CompuCraft1\\Listas.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-11T01:04:53.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "More.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\More.xaml.cs",
+              "RelativeDocumentMoniker": "CompuCraft1\\CompuCraft1\\More.xaml.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\More.xaml.cs",
+              "RelativeToolTip": "CompuCraft1\\CompuCraft1\\More.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T00:34:11.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "More.xaml",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\More.xaml",
+              "RelativeDocumentMoniker": "CompuCraft1\\CompuCraft1\\More.xaml",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\More.xaml",
+              "RelativeToolTip": "CompuCraft1\\CompuCraft1\\More.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-11T00:26:07.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GPU.xaml",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\GPU.xaml",
+              "RelativeDocumentMoniker": "CompuCraft1\\CompuCraft1\\GPU.xaml",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\GPU.xaml",
+              "RelativeToolTip": "CompuCraft1\\CompuCraft1\\GPU.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAB6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-10T02:54:02.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Componentes.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\Componentes.xaml.cs",
+              "RelativeDocumentMoniker": "CompuCraft1\\CompuCraft1\\Componentes.xaml.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\Componentes.xaml.cs",
+              "RelativeToolTip": "CompuCraft1\\CompuCraft1\\Componentes.xaml.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA9wEoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T19:10:41.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Componentes.xaml",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\Componentes.xaml",
+              "RelativeDocumentMoniker": "CompuCraft1\\CompuCraft1\\Componentes.xaml",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\Componentes.xaml",
+              "RelativeToolTip": "CompuCraft1\\CompuCraft1\\Componentes.xaml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-09T19:07:55.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "CompuCraft1\\CompuCraft1\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\MainPage.xaml.cs",
+              "RelativeToolTip": "CompuCraft1\\CompuCraft1\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T06:08:03.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\MainPage.xaml",
+              "RelativeDocumentMoniker": "CompuCraft1\\CompuCraft1\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\CompuCraft1\\CompuCraft1\\CompuCraft1\\MainPage.xaml",
+              "RelativeToolTip": "CompuCraft1\\CompuCraft1\\MainPage.xaml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-09T06:07:35.123Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

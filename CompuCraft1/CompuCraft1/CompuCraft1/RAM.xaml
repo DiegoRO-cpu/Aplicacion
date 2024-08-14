@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompuCraft1.RAM">
+
+    <ContentPage.Background>
+        <!-- Fondo degradado -->
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#00264D" Offset="0.0" />
+            <GradientStop Color="#005BB5" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame Margin="0,10,0,0" BorderColor="#db222a" CornerRadius="10" HasShadow="True" BackgroundColor="#db222a">
+            <StackLayout>
+                        <Image Source="https://m.media-amazon.com/images/I/51Y7ugfDRWS._AC_UF894,1000_QL80_.jpg"
+                               Aspect="AspectFill"
+                               HeightRequest="150" />
+                <Label Text="Descripción: Memoria RAM de bajo perfil y alto rendimiento, ideal para juegos y aplicaciones generales. Ofrece buena estabilidad y un diseño compacto."
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,5"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Segundo memoria RAM -->
+        <Frame Margin="0,10,0,0" BorderColor="#1f7a8c" CornerRadius="10" HasShadow="True" BackgroundColor="#1f7a8c">
+            <StackLayout>
+                        <Image Source="https://img.caseking.es/products/F4-3600C16D-32GVKC.jpg"
+                               Aspect="AspectFill"
+                               HeightRequest="150" />
+                <Label Text="Descripción: Ideal para usuarios que necesitan gran capacidad y velocidad. Perfecta para edición de video, diseño gráfico, y multitarea intensiva."
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,5"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Tercer memoria RAM -->
+        <Frame Margin="0,10,0,0" BorderColor="#4a90e2" CornerRadius="10" HasShadow="True" BackgroundColor="#4a90e2">
+            <StackLayout>
+                        <Image Source="https://media.ldlc.com/r1600/ld/products/00/05/70/95/LD0005709504_1.jpg"
+                               Aspect="AspectFill"
+                               HeightRequest="150" />
+                <Label Text="Descripción: Memoria RAM de alto rendimiento con alta velocidad para entusiastas y overclockers. Ofrece latencias bajas y diseño robusto."
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,5"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Cuarta memoria RAM -->
+        <Frame Margin="0,10,0,0" BorderColor="#50e3c2" CornerRadius="10" HasShadow="True" BackgroundColor="#50e3c2">
+            <StackLayout>
+                        <Image Source="https://m.media-amazon.com/images/I/61phjjKKrmL._AC_UF894,1000_QL80_.jpg"
+                               Aspect="AspectFill"
+                               HeightRequest="150" />
+                <Label Text="Descripción: Memoria RAM de alta gama con iluminación RGB personalizable. Combina rendimiento robusto con estética atractiva."
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,5"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Quinta memoria RAM -->
+        <Frame Margin="0,10,0,0" BorderColor="#f5a623" CornerRadius="10" HasShadow="True" BackgroundColor="#f5a623">
+            <StackLayout>
+                        <Image Source="https://m.media-amazon.com/images/I/41GYVuKLOEL._AC_UF894,1000_QL80_.jpg"
+                               Aspect="AspectFill"
+                               HeightRequest="150" />
+                <Label Text="Descripción: Memoria RAM confiable y de buen rendimiento a un precio accesible. Adecuada para mejorar el rendimiento general sin velocidades extremas."
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,5"/>
+            </StackLayout>
+        </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

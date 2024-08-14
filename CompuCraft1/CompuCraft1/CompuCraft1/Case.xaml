@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompuCraft1.Case">
+
+    <ContentPage.Background>
+        <!-- Fondo degradado -->
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#00264D" Offset="0.0" />
+            <GradientStop Color="#005BB5" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <!-- Primer Gabinete -->
+                <Frame Margin="0,10,0,0" BorderColor="#db222a" CornerRadius="10" HasShadow="True" BackgroundColor="#db222a">
+                    <StackLayout>
+                        <Image Source="https://www.datocms-assets.com/34299/1681237113-h510-black-black-nosystem-top45.png"
+                           Aspect="AspectFill"
+                           HeightRequest="350" />
+                        <Label Text="Descripción: El NZXT H510 es un gabinete compacto y minimalista con panel lateral de vidrio templado y excelente gestión de cables. Soporta radiadores de hasta 240 mm."
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Segundo Gabinete -->
+                <Frame Margin="0,10,0,0" BorderColor="#1f7a8c" CornerRadius="10" HasShadow="True" BackgroundColor="#1f7a8c">
+                    <StackLayout>
+                        <Image Source="https://i5.walmartimages.com/seo/CORSAIR-4000D-AIRFLOW-Tempered-Glass-Mid-Tower-ATX-Case-with-ATX-RM750e-Power-Supply-installed-Black_f3447482-dc7b-44ab-a700-3fa540fad171.9aed07f1a0e0a62eba1ac1d15c483121.png"
+                           Aspect="AspectFill"
+                           HeightRequest="250" />
+                        <Label Text="Descripción: Corsair 4000D Airflow es un gabinete de torre media con panel frontal de malla, ideal para un flujo de aire óptimo. Compatible con radiadores de hasta 360 mm."
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Tercer Gabinete -->
+                <Frame Margin="0,10,0,0" BorderColor="#4a90e2" CornerRadius="10" HasShadow="True" BackgroundColor="#4a90e2">
+                    <StackLayout>
+                        <Image Source="https://cdn.coolermaster.com/media/4770/td500m-block02-poly-mesh-imageleftorright.png"
+                           Aspect="AspectFill"
+                           HeightRequest="350" />
+                        <Label Text="Descripción: Cooler Master MasterBox TD500 Mesh con diseño único de malla 3D, tres ventiladores ARGB de 120 mm preinstalados, y soporte para radiadores de hasta 360 mm."
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Cuarto Gabinete -->
+                <Frame Margin="0,10,0,0" BorderColor="#50e3c2" CornerRadius="10" HasShadow="True" BackgroundColor="#50e3c2">
+                    <StackLayout>
+                        <Image Source="https://m.media-amazon.com/images/I/91Gqz3yTwnL.jpg"
+                           Aspect="AspectFill"
+                           HeightRequest="250" />
+                        <Label Text="Descripción: Phanteks Eclipse P300A es un gabinete compacto con panel frontal de malla, ideal para construcciones de gama media. Soporta radiadores de hasta 280 mm."
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Quinto Gabinete -->
+                <Frame Margin="0,10,0,0" BorderColor="#f5a623" CornerRadius="10" HasShadow="True" BackgroundColor="#f5a623">
+                    <StackLayout>
+                        <Image Source="https://lian-li.com/wp-content/uploads/2020/12/lancoolii-mesh-e1606978640556.png"
+                           Aspect="AspectFill"
+                           HeightRequest="250" />
+                        <Label Text="Descripción: Lian Li Lancool II Mesh combina diseño y funcionalidad con panel frontal de malla y tres ventiladores de 120 mm preinstalados. Soporta radiadores de hasta 360 mm."
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

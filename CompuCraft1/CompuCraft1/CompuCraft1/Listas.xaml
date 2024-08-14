@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompuCraft1.Listas">
+    <ContentPage.Background>
+        <!-- Fondo degradado -->
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#00264D" Offset="0.0" />
+            <GradientStop Color="#005BB5" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="20">
+
+            <!-- Título -->
+            <Label Text="Tiendas Sugeridas"
+                   FontSize="24"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start"
+                   Margin="0,20,0,10"/>
+
+            <!-- Lista de Tiendas -->
+            <CollectionView x:Name="Tiendas" ItemsSource="{Binding Stores}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="10" Spacing="10">
+                            <!-- Nombre de la Tienda -->
+                            <Label Text="{Binding Name}" 
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   TextColor="#FFD700"
+                                   HorizontalOptions="Start" />
+
+                            <!-- Tipo de Tienda (Física o En Línea) -->
+                            <Label Text="{Binding Type}"
+                                   FontSize="16"
+                                   TextColor="#db222a"
+                                   HorizontalOptions="Start"/>
+
+                            <!-- Dirección o URL -->
+                            <Label Text="{Binding Address}"
+                                   FontSize="14"
+                                   TextColor="Aqua"
+                                   HorizontalOptions="Start" />
+
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

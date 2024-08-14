@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompuCraft1.Pasos">
+
+    <ContentPage.Background>
+        <!-- Fondo degradado -->
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#003366" Offset="0.0" />
+            <GradientStop Color="#336699" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+
+            <!-- Título de la página -->
+            <Label Text="Guía para Armar tu PC"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#ffffff"
+                   HorizontalOptions="Center"
+                   Margin="0,10,0,10"/>
+
+            <!-- Paso 1 -->
+            <Frame Margin="0,10,0,0" BorderColor="#004080" CornerRadius="10" HasShadow="True" BackgroundColor="#db222a">
+                <StackLayout Padding="10">
+                    <Label Text="Paso 1: Preparar el área de trabajo"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="#ffffff"
+                           Margin="0,0,0,10"/>
+                    <Label Text="Asegúrate de trabajar en un área limpia y libre de estática. Coloca una alfombra antiestática para proteger los componentes de descargas eléctricas."
+                           FontSize="16"
+                           TextColor="#d0d0d0"/>
+                    <WebView Source="https://www.youtube.com/embed/cPL85IAHKJU" HeightRequest="200"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Paso 2 -->
+            <Frame Margin="0,10,0,0" BorderColor="#004080" CornerRadius="10" HasShadow="True" BackgroundColor="#1f7a8c">
+                <StackLayout Padding="10">
+                    <Label Text="Paso 2: Instalar el CPU"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="#ffffff"
+                           Margin="0,0,0,10"/>
+                    <Label Text="Coloca el procesador en el zócalo de la placa base. Asegúrate de alinear los pines correctamente y aplica pasta térmica si es necesario."
+                           FontSize="16"
+                           TextColor="#d0d0d0"/>
+                    <WebView Source="https://www.youtube.com/embed/pHu0VXd-XiU" HeightRequest="200"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Paso 3 -->
+            <Frame Margin="0,10,0,0" BorderColor="#004080" CornerRadius="10" HasShadow="True" BackgroundColor="#4a90e2">
+                <StackLayout Padding="10">
+                    <Label Text="Paso 3: Instalar la memoria RAM"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="#ffffff"
+                           Margin="0,0,0,10"/>
+                    <Label Text="Inserta los módulos de RAM en los zócalos correspondientes de la placa base. Asegúrate de que estén bien alineados y encajen correctamente."
+                           FontSize="16"
+                           TextColor="#d0d0d0"/>
+                    <WebView Source="https://www.youtube.com/embed/i8zpCAdj03A" HeightRequest="200"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Paso 4 -->
+            <Frame Margin="0,10,0,0" BorderColor="#004080" CornerRadius="10" HasShadow="True" BackgroundColor="#50e3c2">
+                <StackLayout Padding="10">
+                    <Label Text="Paso 4: Instalar el SSD"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="Black"
+                           Margin="0,0,0,10"/>
+                    <Label Text="Monta el SSD en la bahía correspondiente o en el soporte de montaje de tu caso. Conecta los cables de datos y alimentación."
+                           FontSize="16"
+                           TextColor="Black"/>
+                    <WebView Source="https://www.youtube.com/embed/25o9fRCqCjI" HeightRequest="200"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Paso 5 -->
+            <Frame Margin="0,10,0,0" BorderColor="#004080" CornerRadius="10" HasShadow="True" BackgroundColor="#f5a623">
+                <StackLayout Padding="10">
+                    <Label Text="Paso 5: Conectar los cables de la PSU"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="Black"
+                           Margin="0,0,0,10"/>
+                    <Label Text="Conecta los cables de la fuente de poder a la placa base, CPU, y otros componentes. Asegúrate de que todos los cables estén firmemente conectados."
+                           FontSize="16"
+                           TextColor="Black"/>
+                    <WebView Source="https://www.youtube.com/embed/ixU45Svgzuw" HeightRequest="200"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Paso 6 -->
+            <Frame Margin="0,10,0,0" BorderColor="#004080" CornerRadius="10" HasShadow="True" BackgroundColor="#db222a">
+                <StackLayout Padding="10">
+                    <Label Text="Paso 6: Instalar la GPU"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="#ffffff"
+                           Margin="0,0,0,10"/>
+                    <Label Text="Coloca la tarjeta gráfica en el slot PCIe de la placa base y conéctala a la fuente de poder si es necesario."
+                           FontSize="16"
+                           TextColor="#d0d0d0"/>
+                    <WebView Source="https://www.youtube.com/embed/dc3z7Ms8KQw" HeightRequest="200"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Paso 7 -->
+            <Frame Margin="0,10,0,0" BorderColor="#004080" CornerRadius="10" HasShadow="True" BackgroundColor="#1f7a8c">
+                <StackLayout Padding="10">
+                    <Label Text="Paso 7: Verificar conexiones y encender el sistema"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="#ffffff"
+                           Margin="0,0,0,10"/>
+                    <Label Text="Revisa todas las conexiones y asegúrate de que todo esté correctamente instalado. Luego, enciende el sistema y verifica que arranque correctamente."
+                           FontSize="16"
+                           TextColor="#d0d0d0"/>
+                    <WebView Source="https://www.youtube.com/embed/vT0mybXuOZc" HeightRequest="200"/>
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompuCraft1.MEMORIA">
+
+    <ContentPage.Background>
+        <!-- Fondo degradado -->
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#00264D" Offset="0.0" />
+            <GradientStop Color="#005BB5" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <!-- Primer SSD -->
+                <Frame Margin="0,10,0,0" BorderColor="#db222a" CornerRadius="10" HasShadow="True" BackgroundColor="#db222a">
+                    <StackLayout>
+                        <Image Source="https://m.media-amazon.com/images/I/61XDwt17G4L._AC_UF894,1000_QL80_.jpg"
+                       Aspect="AspectFill"
+                       HeightRequest="150" />
+                        <Label Text="Samsung 970 EVO Plus 1TB: SSD M.2 NVMe con velocidad de lectura de hasta 3,500 MB/s y escritura de hasta 3,300 MB/s. Ideal para alto rendimiento en gaming y tareas intensivas."
+                       FontAttributes="Bold"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Segundo SSD -->
+                <Frame Margin="0,10,0,0" BorderColor="#1f7a8c" CornerRadius="10" HasShadow="True" BackgroundColor="#1f7a8c">
+                    <StackLayout>
+                        <Image Source="https://m.media-amazon.com/images/I/81ucf5Jl4vL._AC_UF894,1000_QL80_.jpg"
+                       Aspect="AspectFill"
+                       HeightRequest="150" />
+                        <Label Text="Western Digital WD Black SN850 1TB: SSD M.2 NVMe con velocidad de lectura de hasta 7,000 MB/s y escritura de hasta 5,300 MB/s. Excelente para gaming extremo y aplicaciones multitarea."
+                       FontAttributes="Bold"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Tercer SSD -->
+                <Frame Margin="0,10,0,0" BorderColor="#4a90e2" CornerRadius="10" HasShadow="True" BackgroundColor="#4a90e2">
+                    <StackLayout>
+                        <Image Source="https://www.nexostiendas.com.pe/assets/uploads/968f3da63ff3b642c2413152cd54fd4e.jpg"
+                       Aspect="AspectFill"
+                       HeightRequest="150" />
+                        <Label Text="Crucial MX500 500GB: SSD SATA III con velocidad de lectura de hasta 560 MB/s y escritura de hasta 510 MB/s. Ofrece buena relación calidad-precio y es ideal para mejorar sistemas antiguos."
+                       FontAttributes="Bold"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Cuarto SSD -->
+                <Frame Margin="0,10,0,0" BorderColor="#50e3c2" CornerRadius="10" HasShadow="True" BackgroundColor="#50e3c2">
+                    <StackLayout>
+                        <Image Source="https://www.storagereview.com/wp-content/uploads/2014/06/StorageReview-SanDisk-Extreme-Pro.jpg"
+                       Aspect="AspectFill"
+                       HeightRequest="150" />
+                        <Label Text="SanDisk Extreme Pro 1TB: SSD M.2 NVMe con velocidad de lectura de hasta 3,400 MB/s y escritura de hasta 2,700 MB/s. Combina buen rendimiento con robustez y durabilidad."
+                       FontAttributes="Bold"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Quinto SSD -->
+                <Frame Margin="0,10,0,0" BorderColor="#f5a623" CornerRadius="10" HasShadow="True" BackgroundColor="#f5a623">
+                    <StackLayout>
+                        <Image Source="https://m.media-amazon.com/images/I/51rht6TojOL.jpg"
+                       Aspect="AspectFill"
+                       HeightRequest="150" />
+                        <Label Text="Kingston KC2500 1TB: SSD M.2 NVMe con velocidad de lectura de hasta 3,500 MB/s y escritura de hasta 2,900 MB/s. Ofrece un buen equilibrio entre rendimiento y precio."
+                       FontAttributes="Bold"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

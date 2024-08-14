@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompuCraft1.Placas">
+
+    <ContentPage.Background>
+        <!-- Fondo degradado -->
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#00264D" Offset="0.0" />
+            <GradientStop Color="#005BB5" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <!-- Primer producto -->
+                <Frame Margin="0,10,0,0" BorderColor="#db222a" CornerRadius="10" HasShadow="True" BackgroundColor="#db222a">
+                    <StackLayout>
+                        <Image Source="https://media.ldlc.com/r1600/ld/products/00/05/75/78/LD0005757808_1.jpg"
+                               Aspect="AspectFill"
+                               HeightRequest="350" />
+                        <Label Text="Descripción: Ideal para entusiastas de AMD, soporta overclocking avanzado y cuenta con Wi-Fi integrado, puertos USB 3.2 Gen 2, y excelente conectividad para redes de alta velocidad."
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Segundo producto -->
+                <Frame Margin="0,10,0,0" BorderColor="#1f7a8c" CornerRadius="10" HasShadow="True" BackgroundColor="#1f7a8c">
+                    <StackLayout>
+                        <Image Source="https://m.media-amazon.com/images/I/A1xGvY2jsiL.jpg"
+                               Aspect="AspectFill"
+                               HeightRequest="350" />
+                        <Label Text="Descripción: Diseñada para la 10ª generación de procesadores Intel, ofrece soporte para overclocking, triple slot M.2, y conectividad Wi-Fi 6, ideal para usuarios que buscan un rendimiento extremo."
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Tercer producto -->
+                <Frame Margin="0,10,0,0" BorderColor="#4a90e2" CornerRadius="10" HasShadow="True" BackgroundColor="#4a90e2">
+                    <StackLayout>
+                        <Image Source="https://m.media-amazon.com/images/I/81osEzrPHeL._AC_UF894,1000_QL80_.jpg"
+                               Aspect="AspectFill"
+                               HeightRequest="350" />
+                        <Label Text="Descripción: Una opción más económica para procesadores AMD Ryzen, con soporte para PCIe 4.0, doble ranura M.2, y una buena cantidad de puertos USB, adecuada para un equilibrio entre rendimiento y precio."
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Cuarto producto -->
+                <Frame Margin="0,10,0,0" BorderColor="#50e3c2" CornerRadius="10" HasShadow="True" BackgroundColor="#50e3c2">
+                    <StackLayout>
+                        <Image Source="https://http2.mlstatic.com/D_NQ_NP_790919-MLM53618733382_022023-O.webp"
+                               Aspect="AspectFill"
+                               HeightRequest="350" />
+                        <Label Text="Descripción: Compatible con la 12ª generación de procesadores Intel, ofrece soporte para DDR5, PCIe 5.0, y una robusta capacidad de overclocking, perfecta para construir una máquina de alto rendimiento."
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Quinto producto -->
+                <Frame Margin="0,10,0,0" BorderColor="#f5a623" CornerRadius="10" HasShadow="True" BackgroundColor="#f5a623">
+                    <StackLayout>
+                        <Image Source="https://dlcdnimgs.asus.com/websites/global/products/bvceys3w8ug0apoa/img/fan/fan-1.png"
+                               Aspect="AspectFill"
+                               HeightRequest="350" />
+                        <Label Text="Descripción: Placa madre robusta y duradera, ideal para gamers, con características de enfriamiento eficientes, soporte para PCIe 4.0, y una buena relación calidad-precio, adecuada para sistemas de gama media a alta."
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompuCraft1.MainPage">
+
+    <ContentPage.Background>
+        <!-- Fondo degradado -->
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#00264D" Offset="0.0" />
+            <GradientStop Color="#005BB5" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="30" VerticalOptions="CenterAndExpand">
+            <!-- Grid para el ícono y el título -->
+            <Grid HorizontalOptions="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Ícono en la parte superior izquierda -->
+                <Image Source="icono.png"
+                       HeightRequest="40"
+                       WidthRequest="40"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start" />
+
+                <!-- Título de la página -->
+                <Label Text="¡Bienvenido a CompuCraft!"
+                       Grid.Column="1"
+                       FontSize="32"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+            </Grid>
+
+            <!-- Descripción -->
+            <Label Text="Construye tu PC personalizada eligiendo los mejores componentes."
+                   FontSize="18"
+                   TextColor="LightGray"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,10,0,20" />
+
+            <!-- Botón para comenzar -->
+            <Button Text="Comenzar"
+                    FontSize="22"
+                    BackgroundColor="#FFD700"
+                    TextColor="Black"
+                    CornerRadius="20"
+                    Padding="15"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="200"
+                    Clicked="Button_Clicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

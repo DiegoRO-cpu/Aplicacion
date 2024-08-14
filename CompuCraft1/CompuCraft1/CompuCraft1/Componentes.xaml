@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompuCraft1.Componentes">
+    
+    <ContentPage.Background>
+        <!-- Fondo degradado -->
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#00264D" Offset="0.0" />
+            <GradientStop Color="#005BB5" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <StackLayout Padding="20" Spacing="20">
+
+        <!-- Lista de botones con descripción -->
+        <StackLayout Spacing="10">
+            <!-- Primera fila: Botón 1 -->
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Button Text="CPU"  WidthRequest="100" BackgroundColor="#db222a"  CornerRadius="25" Clicked="Button_Clicked_1" />
+                <Label Text="El cerebro de la computadora que realiza la mayoría de los cálculos." 
+                       FontSize="16" 
+                       TextColor="LightGray"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+
+            <!-- Segunda fila: Botón 2 -->
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Button Text="MOTHERBOARD"  WidthRequest="100" BackgroundColor="#1f7a8c"  CornerRadius="25" Clicked="Button_Clicked_2" />
+                <Label Text="La placa central donde se conectan todos los componentes de la PC." 
+                       FontSize="16" 
+                       TextColor="LightGray"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+
+            <!-- Tercera fila: Botón 3 -->
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Button Text="RAM"  WidthRequest="100" BackgroundColor="#053c5e"  CornerRadius="25" Clicked="Button_Clicked_3"/>
+                <Label Text="La memoria de acceso rápido que almacena datos temporales mientras la PC está en funcionamiento." 
+                       FontSize="16" 
+                       TextColor="LightGray"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+
+            <!-- Cuarta fila: Botón 4 -->
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Button Text="SSD"  WidthRequest="100" BackgroundColor="#bfdbf7"  CornerRadius="25" Clicked="Button_Clicked_4" />
+                <Label Text="Almacena el sistema operativo, aplicaciones y archivos." 
+                       FontSize="16" 
+                       TextColor="LightGray"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+
+            <!-- Quinta fila: Botón 5 -->
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Button Text="PSU"  WidthRequest="100" BackgroundColor="#a31621"  CornerRadius="25" Clicked="Button_Clicked_5" />
+                <Label Text="Proporciona la energía necesaria para todos los componentes de la PC." 
+                       FontSize="16" 
+                       TextColor="LightGray"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+
+            <!-- Sexta fila: Botón 6 -->
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Button Text="CASE"  WidthRequest="100" BackgroundColor="#db222a"   CornerRadius="25" Clicked="Button_Clicked_6" />
+                <Label Text="El contenedor que alberga todos los componentes internos de la PC." 
+                       FontSize="16" 
+                       TextColor="LightGray"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+
+           
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Button Text="COOLER"  WidthRequest="100" BackgroundColor="#1f7a8c"  CornerRadius="25" Clicked="Button_Clicked_7" />
+                <Label Text="Mantiene los componentes a una temperatura adecuada." 
+                       FontSize="16" 
+                       TextColor="LightGray"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+
+          
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Button Text="GPU"  WidthRequest="100" BackgroundColor="#053c5e"  CornerRadius="25" Clicked="Button_Clicked_8"/>
+                <Label Text="Procesa los gráficos y las imágenes, esencial para juegos y aplicaciones gráficas intensivas." 
+                       FontSize="16" 
+                       TextColor="LightGray"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Spacing="15" HorizontalOptions="Center">
+            <Button Text="Crear"
+                FontSize="22"
+                BackgroundColor="#FFD700"
+                TextColor="Black"
+                CornerRadius="25"
+                Padding="15"
+                WidthRequest="150"
+                Clicked="Button_Clicked" />
+
+            <Button Text="Armar"
+                FontSize="22"
+                BackgroundColor="#FFD700"
+                TextColor="Black"
+                CornerRadius="25"
+                Padding="15"
+                WidthRequest="150"
+                Clicked="Button_Clicked_9" />
+        </StackLayout>
+        <StackLayout>
+            <Button Text="More"
+FontSize="22"
+BackgroundColor="#FFD700"
+TextColor="Black"
+CornerRadius="25"
+Padding="15"
+WidthRequest="150"
+Clicked="Button_Clicked_10" />
+        </StackLayout>
+
+
+    </StackLayout>
+</ContentPage>

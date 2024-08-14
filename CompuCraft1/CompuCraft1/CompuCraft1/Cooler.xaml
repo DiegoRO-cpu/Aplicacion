@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompuCraft1.Cooler">
+
+    <ContentPage.Background>
+        <!-- Fondo degradado -->
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#00264D" Offset="0.0" />
+            <GradientStop Color="#005BB5" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <!-- Primer Ventilador -->
+                <Frame Margin="0,10,0,0" BorderColor="#db222a" CornerRadius="10" HasShadow="True" BackgroundColor="#db222a">
+                    <StackLayout>
+                        <Image Source="https://www.techpowerup.com/review/noctua-nf-a12x25-pwm/images/small.png"
+                           Aspect="AspectFill"
+                           HeightRequest="250" />
+                        <Label Text="Descripción: Noctua NF-A12x25 PWM es un ventilador premium de 120 mm con rodamientos SSO2, optimizado para flujo de aire excelente y baja sonoridad."
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Segundo Ventilador -->
+                <Frame Margin="0,10,0,0" BorderColor="#1f7a8c" CornerRadius="10" HasShadow="True" BackgroundColor="#1f7a8c">
+                    <StackLayout>
+                        <Image Source="https://assets.corsair.com/image/upload/f_auto,q_auto/content/CO-9050076-WW-ML120-Pro-RGB-01-RAINBOW.png"
+                           Aspect="AspectFill"
+                           HeightRequest="250" />
+                        <Label Text="Descripción: Corsair ML120 PRO RGB de 120 mm con tecnología de levitación magnética, bajo ruido y iluminación RGB personalizable."
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Tercer Ventilador -->
+                <Frame Margin="0,10,0,0" BorderColor="#4a90e2" CornerRadius="10" HasShadow="True" BackgroundColor="#4a90e2">
+                    <StackLayout>
+                        <Image Source="https://www.bequiet.com/volumes/pim/fans/silentwings/silentwings3/3d/017.jpg"
+                           Aspect="AspectFill"
+                           HeightRequest="250" />
+                        <Label Text="Descripción: be quiet! Silent Wings 3 de 120 mm ultra silencioso con rodamientos fluidos dinámicos. Ideal para configuraciones de bajo ruido."
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Cuarto Ventilador -->
+                <Frame Margin="0,10,0,0" BorderColor="#50e3c2" CornerRadius="10" HasShadow="True" BackgroundColor="#50e3c2">
+                    <StackLayout>
+                        <Image Source="https://cdn.coolermaster.com/media/assets/1004/masterfan-mf120-halo-white-section2-1-imageleftorright.png"
+                           Aspect="AspectFill"
+                           HeightRequest="250" />
+                        <Label Text="Descripción: Cooler Master MasterFan MF120 Halo de 120 mm con iluminación LED ARGB doble, optimizado para refrigeración y estética."
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Quinto Ventilador -->
+                <Frame Margin="0,10,0,0" BorderColor="#f5a623" CornerRadius="10" HasShadow="True" BackgroundColor="#f5a623">
+                    <StackLayout>
+                        <Image Source="https://es.thermaltake.com/pub/media/wysiwyg/key3/img/SWAFAN_EX12_RGB/p0.png"
+                           Aspect="AspectFill"
+                           HeightRequest="250" />
+                        <Label Text="Descripción: Thermaltake Riing Quad 12 RGB de 120 mm con 4 anillos LED RGB, buen rendimiento de refrigeración y diseño estético."
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompuCraft1.Armado">
+    
+    <ContentPage.Background>
+        <!-- Fondo degradado -->
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#00264D" Offset="0.0" />
+            <GradientStop Color="#005BB5" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <!-- Sección CPU -->
+                <Label Text="Elige tu CPU:" FontSize="Medium" FontAttributes="Bold" TextColor="#db222a"/>
+                <Picker x:Name="CpuPicker">
+                    <Picker.Items>
+                        <x:String>AMD RYZEN 5 5600G</x:String>
+                        <x:String>AMD RYZEN 7 5800X</x:String>
+                        <x:String>AMD RYZEN 9 5900X</x:String>
+                        <x:String>INTEL CORE I9 9900K</x:String>
+                        <x:String>INTEL CORE I9 10900K</x:String>
+                        <!-- Agrega más CPUs aquí -->
+                    </Picker.Items>
+                </Picker>
+
+                <!-- Sección Motherboard -->
+                <Label Text="Elige tu Motherboard:" FontSize="Medium" FontAttributes="Bold" TextColor="#1f7a8c" />
+                <Picker x:Name="MotherboardPicker">
+                    <Picker.Items>
+
+                        <x:String>ASUS TUF Gaming B550-PLUS</x:String>
+                        <x:String>TUF GAMING H570</x:String>
+                        <x:String>Z390 AORUS MASTER</x:String>
+                        <x:String>msi meg z490 ace</x:String>
+                        <x:String>ASUS ROG Strix HERO</x:String>
+                        <!-- Agrega más Motherboards aquí -->
+                    </Picker.Items>
+                </Picker>
+
+                <!-- Sección RAM -->
+                <Label Text="Elige tu RAM:" FontSize="Medium" FontAttributes="Bold" TextColor="#4a90e2"/>
+                <Picker x:Name="RamPicker">
+                    <Picker.Items>
+
+                        <x:String>Crucial Ballistix 16GB (2 x 8GB) DDR4-2666</x:String>
+                        <x:String>Corsair Vengeance LPX 16GB</x:String>
+                        <x:String>G.SKILL Ripjaws V 32GB</x:String>
+                        <x:String>Corsair Dominator Platinum RGB 32GB (2 x 16GB) DDR4-3200</x:String>
+                        <x:String>Kingston HyperX Predator 16GB (2 x 8GB) DDR4-4000</x:String>
+
+                        <!-- Agrega más RAM aquí -->
+                    </Picker.Items>
+                </Picker>
+
+                <!-- Sección SSD -->
+                <Label Text="Elige tu SSD:" FontSize="Medium" FontAttributes="Bold" TextColor="#50e3c2"/>
+                <Picker x:Name="SsdPicker">
+                    <Picker.Items>
+
+                        <x:String>Crucial MX500 500GB</x:String>
+                        <x:String>SanDisk Extreme Pro 1TB</x:String>
+                        <x:String>Samsung 970 EVO Plus 1TB</x:String>
+                        <x:String>Kingston KC2500 1TB</x:String>
+                        <x:String>WD Black SN850 1TB</x:String>
+                        <!-- Agrega más SSDs aquí -->
+                    </Picker.Items>
+                </Picker>
+
+                <!-- Sección PSU -->
+                <Label Text="Elige tu PSU:" FontSize="Medium" FontAttributes="Bold" TextColor="#f5a623"/>
+                <Picker x:Name="PsuPicker">
+                    <Picker.Items>
+                        <x:String>Seasonic Focus GX-650 - 650W, 80 PLUS Gold</x:String>
+                        <x:String>Cooler Master MWE Gold 650 V2 - 650W, 80 PLUS Gold</x:String>
+                        <x:String>Corsair RM750x</x:String>
+                        <x:String>Thermaltake Toughpower GF1 - 750W, 80 PLUS Gold</x:String>
+                        <x:String>EVGA SuperNOVA 850 G5</x:String>
+                        <!-- Agrega más PSUs aquí -->
+                    </Picker.Items>
+                </Picker>
+
+                <!-- Sección Case -->
+                <Label Text="Elige tu Case:" FontSize="Medium" FontAttributes="Bold" TextColor="#db222a" />
+                <Picker x:Name="CasePicker">
+                    <Picker.Items>
+                        <x:String>Phanteks Eclipse P300A</x:String>
+                        <x:String>NZXT H510</x:String>
+                        <x:String>Corsair 4000D Airflow</x:String>
+                        <x:String>Cooler Master MasterBox TD500 Mesh</x:String>
+                        <x:String>Lian Li Lancool II Mesh</x:String>
+                        <!-- Agrega más Cases aquí -->
+                    </Picker.Items>
+                </Picker>
+
+                <!-- Sección Cooler -->
+                <Label Text="Elige tu Cooler:" FontSize="Medium" FontAttributes="Bold" TextColor="#1f7a8c" />
+                <Picker x:Name="CoolerPicker">
+                    <Picker.Items>
+                        <x:String>Cooler Master MasterFan MF120 Halo</x:String>
+                        <x:String>Corsair ML120 PRO RGB</x:String>
+                        <x:String>be quiet! Silent Wings 3</x:String>
+                        <x:String>Thermaltake Riing Quad 12 RGB</x:String>
+                        <x:String>Noctua NF-A12x25 PWM</x:String>
+                        <!-- Agrega más Coolers aquí -->
+                    </Picker.Items>
+                </Picker>
+
+                <!-- Sección GPU -->
+                <Label Text="Elige tu GPU:" FontSize="Medium" FontAttributes="Bold" TextColor="#4a90e2"/>
+                <Picker x:Name="GpuPicker">
+                    <Picker.Items>
+                        <x:String>NVIDIA GeForce RTX 3060 Ti</x:String>
+                        <x:String>AMD Radeon RX 6800 XT</x:String>
+                        <x:String>NVIDIA GeForce RTX 4070 Ti</x:String>
+                        <x:String>AMD Radeon RX 7900 XTX</x:String>
+                        <x:String>NVIDIA GeForce RTX 4090</x:String>
+                        <!-- Agrega más GPUs aquí -->
+                    </Picker.Items>
+                </Picker>
+
+                <!-- Botón para Calcular Puntaje -->
+                <Button Text="Calcular Puntaje"
+                        Clicked="OnCalculateScoreClicked"
+                        Margin="0,20,0,0" BackgroundColor="#FFD700" CornerRadius="25"/>
+
+                <!-- Label para Mostrar Puntaje -->
+                <Label x:Name="ScoreLabel"
+                       Text="Puntuación: "
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       Margin="0,20,0,0" TextColor="#50e3c2"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

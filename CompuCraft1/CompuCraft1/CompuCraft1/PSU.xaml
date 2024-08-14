@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompuCraft1.PSU">
+    <ContentPage.Background>
+        <!-- Fondo degradado -->
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#00264D" Offset="0.0" />
+            <GradientStop Color="#005BB5" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <!-- Primer SSD -->
+                <Frame Margin="0,10,0,0" BorderColor="#db222a" CornerRadius="10" HasShadow="True" BackgroundColor="#db222a">
+                    <StackLayout>
+                        <Image Source="https://http2.mlstatic.com/D_NQ_NP_638086-MLU70103675103_062023-O.webp"
+                       Aspect="AspectFill"
+                       HeightRequest="250" />
+                        <Label Text="Descripción: Fuente de poder modular de 750W con certificación 80 PLUS Gold, ventilador de 140 mm con modo silencioso en cargas bajas, ideal para PCs de alto rendimiento o con múltiples tarjetas gráficas."
+                       FontAttributes="Bold"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Segundo SSD -->
+                <Frame Margin="0,10,0,0" BorderColor="#1f7a8c" CornerRadius="10" HasShadow="True" BackgroundColor="#1f7a8c">
+                    <StackLayout>
+                        <Image Source="https://images.evga.com/products/gallery/220-G5-0850-X1_XL_4.jpg"
+                       Aspect="AspectFill"
+                       HeightRequest="250" />
+                        <Label Text="Descripción: Fuente de poder modular de 850W con certificación 80 PLUS Gold, 90% de eficiencia, ventilador de 135 mm con rodamientos dinámicos para mayor durabilidad."
+                       FontAttributes="Bold"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Tercer SSD -->
+                <Frame Margin="0,10,0,0" BorderColor="#4a90e2" CornerRadius="10" HasShadow="True" BackgroundColor="#4a90e2">
+                    <StackLayout>
+                        <Image Source="https://m.media-amazon.com/images/I/71Dc1w-eyfL._AC_UF894,1000_QL80_.jpg"
+                       Aspect="AspectFill"
+                       HeightRequest="150" />
+                        <Label Text="Descripción: Fuente de poder compacta y modular de 650W con certificación 80 PLUS Gold, conocida por su rendimiento y confiabilidad. Su ventilador de 120 mm se detiene en cargas bajas para reducir el ruido."
+                       FontAttributes="Bold"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Cuarto SSD -->
+                <Frame Margin="0,10,0,0" BorderColor="#50e3c2" CornerRadius="10" HasShadow="True" BackgroundColor="#50e3c2">
+                    <StackLayout>
+                        <Image Source="https://m.media-amazon.com/images/I/61DwD68ox0L._AC_UF1000,1000_QL80_.jpg"
+                       Aspect="AspectFill"
+                       HeightRequest="250" />
+                        <Label Text="Descripción: Fuente de poder de 650W con certificación 80 PLUS Gold, diseño mejorado con ventilador HDB de 120 mm para mayor silencio y durabilidad. Es semi-modular, integrando solo los cables esenciales."
+                       FontAttributes="Bold"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Quinto SSD -->
+                <Frame Margin="0,10,0,0" BorderColor="#f5a623" CornerRadius="10" HasShadow="True" BackgroundColor="#f5a623">
+                    <StackLayout>
+                        <Image Source="https://es.thermaltake.com/pub/media/wysiwyg/key3/db/products/psu/tppg1/pic1_750.png"
+                       Aspect="AspectFill"
+                       HeightRequest="250" />
+                        <Label Text="Descripción: Fuente de poder modular de 750W con certificación 80 PLUS Gold, ventilador de 140 mm con rodamientos hidráulicos para un funcionamiento silencioso y duradero. Ideal para sistemas de juegos y estaciones de trabajo."
+                       FontAttributes="Bold"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"
+                       Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

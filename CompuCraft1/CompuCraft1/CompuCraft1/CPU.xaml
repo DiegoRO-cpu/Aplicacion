@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompuCraft1.CPU">
+
+    <ContentPage.Background>
+        <!-- Fondo degradado -->
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#00264D" Offset="0.0" />
+            <GradientStop Color="#005BB5" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <!-- Primer producto -->
+                <Frame Margin="0,10,0,0" BorderColor="#db222a" CornerRadius="10" HasShadow="True" BackgroundColor="#db222a">
+                    <StackLayout>
+                        <Image Source="https://m.media-amazon.com/images/I/61sG147kEvL._AC_UF894,1000_QL80_.jpg"
+                               Aspect="AspectFill"
+                               HeightRequest="350" />
+                        <Label Text="El AMD Ryzen 5 5600G es un procesador de 6 núcleos con gráficos integrados, ideal para gaming ligero y productividad, con 3.9 GHz base y 4.4 GHz turbo. Compatible con socket AM4."
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Segundo producto -->
+                <Frame Margin="0,10,0,0" BorderColor="#1f7a8c" CornerRadius="10" HasShadow="True" BackgroundColor="#1f7a8c">
+                    <StackLayout>
+                        <Image Source="https://hardzone.es/app/uploads-hardzone.es/2021/12/Ryzen-7-5800X-e1640103493932.jpg"
+                               Aspect="AspectFill"
+                               HeightRequest="350" />
+                        <Label Text="El AMD Ryzen 7 5800X es un procesador de 8 núcleos y 16 hilos con 3.8 GHz base y 4.7 GHz turbo, ideal para gaming y creación de contenido. Utiliza el socket AM4 y es compatible con placas base de las series 400 y 500."
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Tercer producto -->
+                <Frame Margin="0,10,0,0" BorderColor="#4a90e2" CornerRadius="10" HasShadow="True" BackgroundColor="#4a90e2">
+                    <StackLayout>
+                        <Image Source="https://acf.geeknetic.es/Imagenes/Tutoriales/2020/1923-AMD-Ryzen-9-5900X/1923-AMD-Ryzen-9-5900X-cabecera.jpg"
+                               Aspect="AspectFill"
+                               HeightRequest="350" />
+                        <Label Text="El AMD Ryzen 9 5900X es un procesador de 12 núcleos con 3.7 GHz base y 4.8 GHz turbo, ideal para gaming y creación de contenido. Utiliza el socket AM"
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Cuarto producto -->
+                <Frame Margin="0,10,0,0" BorderColor="#50e3c2" CornerRadius="10" HasShadow="True" BackgroundColor="#50e3c2">
+                    <StackLayout>
+                        <Image Source="https://m.media-amazon.com/images/I/61-Y1o4uecL.jpg"
+                               Aspect="AspectFill"
+                               HeightRequest="350" />
+                        <Label Text="El Intel Core i9-9900K es un procesador de 8 núcleos con 3.6 GHz base y 5.0 GHz turbo, ideal para gaming y tareas intensivas. Usa el socket LGA 1151 y es compatible con overclocking."
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Quinto producto -->
+                <Frame Margin="0,10,0,0" BorderColor="#f5a623" CornerRadius="10" HasShadow="True" BackgroundColor="#f5a623">
+                    <StackLayout>
+                        <Image Source="https://m.media-amazon.com/images/I/61wXv+tEvuL.jpg"
+                               Aspect="AspectFill"
+                               HeightRequest="350" />
+                        <Label Text="El Intel Core i9-10900K es un procesador de 10 núcleos con 3.7 GHz base y 5.3 GHz turbo, ideal para gaming y multitarea. Usa el socket LGA 1200 y es compatible con overclocking."
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               Margin="0,10,0,5"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompuCraft1.More">
+
+    <ContentPage.Background>
+        <!-- Fondo degradado -->
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#00264D" Offset="0.0" />
+            <GradientStop Color="#005BB5" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="20" VerticalOptions="Center">
+
+        
+            <!-- Botón 2 -->
+            <Button Text="Calculadora de Consumo Energético"
+                    BackgroundColor="#FFD700"
+                    TextColor="Black"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    FontSize="18"
+                    HorizontalOptions="FillAndExpand"
+                    Clicked="Button_Clicked_1"/>
+
+            <!-- Botón 3 -->
+            <Button Text="Lista de Tiendas"
+                    BackgroundColor="#FFD700"
+                    TextColor="Black"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    FontSize="18"
+                    HorizontalOptions="FillAndExpand"
+                    Clicked="Button_Clicked_2"/>
+
+            <!-- Botón 4 -->
+            <Button Text="Sugerencias Automatizadas:"
+                    BackgroundColor="#FFD700"
+                    TextColor="Black"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    FontSize="18"
+                    HorizontalOptions="FillAndExpand"
+                    Clicked="Button_Clicked_3"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
